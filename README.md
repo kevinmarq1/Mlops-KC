@@ -45,14 +45,15 @@ mlops-project/
 │       └── ml_utils.py
 │
 ├── notebooks/
-│   ├── 01_model_dev.ipynb
-│   └── mlruns/
+│   ├── Practica_Despliegues_Alg_Kevin_Marquez.ipynb
+│   └── latest_run_id.txt
 │
 ├── mlruns/
 │
 ├── requirements.txt
 ├── README.md
-└── latest_run_id.txt
+├── imagenes (capturas del api)
+
 ```
 
 > Nota: se incluye la carpeta `mlruns/` válida y funcional para ejecutar la API sin necesidad de reentrenar.
@@ -64,7 +65,6 @@ mlops-project/
 - `GET /`
 - `GET /features`
 - `POST /predict`
-- `GET /info`
 - `POST /summarize`
 - `POST /sentiment`
 
@@ -74,11 +74,11 @@ mlops-project/
 
 1. Abre el notebook:
 ```bash
-notebooks/01_model_dev.ipynb
+Practica_Despliegues_Alg_Kevin_Marquez.ipynb
 ```
 
 2. Entrena y registra el modelo.
-3. Se guardará en `mlruns/` y se actualizará `latest_run_id.txt`.
+3. Se guardará en `notebooks/` y se actualizará `latest_run_id.txt`.
 
 ---
 
